@@ -1,0 +1,82 @@
+{
+  "Menu": [
+    {
+  "Appetizers": {
+    "app1": "French Fries",
+    "ingredients": ["Potatoes", "Avacado Oil", "Himalayian Pink Salt"],
+    "description": "Fresh cut fries cooked in Avacado Oil and lightly salted with Himalayian Pink Salt."
+    }    
+  },
+      {
+        "app2": "Onion Rings",
+        "ingredients": ["Sweet Vidalia Onions", "Almond Flour", "Avacado Oil", "Himalayian Pink Salt"],
+        "description": "Onions breaded with Almond Flour fried in Avacado Oil and lightly salted with Himalayian Pink Salt."
+      },
+      {
+        "app3": "Fried Wing Dings",
+        "ingredients":["Chicken Wings", "Almond Flour", "Avacado Oil"],
+        "description": "Chicken Wings seasoned and breaded with Almond Flour and fried to perfection in Avacado Oil"
+      },
+    {
+    "Cold Sandwiches": {
+        "item1": "Turkey and Cheese",
+        "ingredients":["Bread", "Turkey", "Cheese"],
+        "description": "Half or Giant Turkey and Cheese on sub bread."
+      }
+    },
+      {
+        "item2": "Salami and Cheese",
+        "ingredients": ["Bread", "Salami", "Cheese"],
+        "description": "Half or Giant Salami and Cheese on sub bread." 
+      },
+      {
+        "item3": "Ham and Cheese",
+        "ingredients":["Bread", "Ham", "Cheese"],
+        "description": "Half or Giant Ham and Cheese on sub bread."
+      },
+    {
+      "Hot Sandwiches": {
+        "item1": "Fish Sandwich",
+        "ingredients":["Bread", "Fish", "Cheese", "Tarter Sauce"],
+        "description": "Fish Breaded and fried topped with Tarter Sauce on sub bread."
+      }
+    },
+      {
+        "item2": "Steak and Cheese",
+        "ingredients":["Steak", "Cheese", "Sweet Vidalia Onions", "Green Peppers", "Mayo"],
+        "description": "Ribeye Steak with Cheese, Onions, Green Peppers and Mayo on sub bread."
+      },
+      {
+        "item3": "Sausage Sandwich",
+        "ingredients":["Turkey, Chicken, or Beef Sausage", "Onions", "Peppers", "Sauce"],
+        "description": "Sausage on bread smothered with peppers, onions and sauce."
+      },
+    { "Desserts": {
+      "item1": "Cheesecake",
+      "ingredients":["Cheesecake", "Flavored Sauce"],
+      "description": "World Famous Cheesecake with your Choice of Sauce."
+      }
+    },
+      {
+        "item2": "Pound Cake",
+        "ingredients":["Pound Cake", "Icing", "Flavored Sauce"],
+        "description": "Pound Cake with your Choice of Plain, Icing, or Choice of Sauce."
+      },
+      {
+        "item3": "Apple Pie",
+        "ingredients":["Apple Pie", "Crumble", "Flavored Sauce"],
+        "description": "Apple Pie with either Crumble or your Choice of Sauce."
+      },
+    { "Drinks": {
+      "item1": "Bottled Pop",
+      "ingredients":["Pop"],
+      "description": "Pepsi Products"
+      }
+    },
+      {
+      "item2": "Bottled Water",
+      "ingredients":["water"],
+      "description": "Spring Water"
+    }
+  ]
+}
