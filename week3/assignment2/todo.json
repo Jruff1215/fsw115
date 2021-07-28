@@ -1,0 +1,22 @@
+[
+    {
+        "_id": "7aeb5b79-1526-460f-9ccc-9c7c7a03b3b8",
+        "name": "Wash and dry clothes",
+        "description": "Use the washer and dryer",
+        "price": 25,
+        "isComplete": true,
+        "user": "jamieRuffin",
+        "createdAt": "2021-07-23T00:25:41.000Z",
+        "updatedAt": "2021-07-23T00:40:07.000Z"
+    },
+    {
+        "_id": "edf3c97b-2b61-4e6e-ad17-e9bca9c4bbc5",
+        "name": "Fold and put away the clothes",
+        "description": "Put them in the dresser",
+        "price": 20,
+        "isComplete": true,
+        "user": "jamieRuffin",
+        "createdAt": "2021-07-23T00:48:27.000Z",
+        "updatedAt": "2021-07-24T14:32:30.000Z"
+    }
+]

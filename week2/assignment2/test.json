@@ -1,0 +1,24 @@
+[
+    {
+    "category": "Science: Computers",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "In the server hosting industry IaaS stands for...",
+    "correct_answer": "Infrastructure as a Service",
+    "incorrect_answers": [
+        "Internet as a Service",
+        "Internet and a Server",
+        "Infrastructure as a Server"
+    ]
+},
+{
+    "category": "Entertainment: Video Games",
+    "type": "boolean",
+    "difficulty": "hard",
+    "question": "In The Witcher 3, the Zoltan Chivay Gwent card can be found under the Hanged Man's Tree.",
+    "correct_answer": "True",
+    "incorrect_answers": [
+        "False"
+    ]
+  }
+]
