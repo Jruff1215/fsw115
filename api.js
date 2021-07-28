@@ -288,17 +288,37 @@ var digimon = `[
         }
     ]`
 
-var obj = JSON.parse(digimon)
+/*var obj = JSON.parse(digimon)
+fetch('https://digimon-api.vercel.app/api/digimon')
+.then(response => response.json())
+.then(data => console.log(data));
+json.stringify(data)*/
 
-for (let i = 0; i < obj.length; i++) {
-    var h1 = document.createElement("h1")
-        h1.textContent = obj[i].name
+fetch("https://digimon-api.vercel.app/api/digimon")
+    .then((response) => {
+        if(response.ok) {
+            return response.json();
+        } else {
+            throw new Error("Network Response Error");
+        }
+    })
+    .then(data => {
+        console.log(data);
+        displayData(data)
+    })
+    .catch((error) => console.error("Fetch Error:", error));
+
+function displayData(data) {
+    for (let i = 0; i < data.length; i++){
+        var h1 = document.createElement("h1")
+        h1.textContent = data[i].name
         document.body.appendChild(h1)
     var img = document.createElement("img")
-        img.src = obj[i].img
+        img.src = data[i].img
         document.body.appendChild(img)
     var h3 = document.createElement("h3")
-        h3.textContent = obj[i].level
+        h3.textContent = data[i].level
         document.body.appendChild(h3)
-}
- 
+        }
+    
+    }
