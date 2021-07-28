@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+<title>Todo</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src= "todo.js"></script>
+    <div class="panel panel-primary">
+        <div class="panel-heading">GET Request</div>
+        <div class="panel-body">
+          <button class="btn btn-primary" onclick="getRequest()">Get Todos</button>
+          <div class="panel-body" id="getResult"></div>
+          <script>
+              function clearOutput() {
+                  document.getElementsByClassName("btn btn-warning").reset()
+              }
+          </script>
+        </div>
+    </div>
+   
+</body>
